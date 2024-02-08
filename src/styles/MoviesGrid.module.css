@@ -1,0 +1,15 @@
+.moviesGridContainer {}
+
+.moviesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 20px;
+    row-gap: 40px;
+    justify-items: center;
+}
+
+@media (width < 552px) {
+    .moviesGrid {
+        grid-template-columns: 1fr
+    }
+}

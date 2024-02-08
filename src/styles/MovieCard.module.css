@@ -1,0 +1,36 @@
+.movieCard {
+    list-style: none;
+    width: 230px;
+    background-color: var(--color1);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movieCard:hover {
+    cursor: pointer;
+    opacity: .75;
+    transition: all .2s;
+    background-color: white;
+}
+
+.movieCard:hover .movieTitle {
+    color: var(--color1);
+}
+
+.movieTitle {
+    padding: 15px;
+}
+
+@media (width < 552px) {
+    .movieCard {
+        width: 85vw;
+    }
+    .movieImage {
+        width: 100%;
+        height: auto;
+    }
+}

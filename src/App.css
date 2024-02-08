@@ -1,0 +1,15 @@
+#root {
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 1rem;
+    padding-top: 2rem;
+}
