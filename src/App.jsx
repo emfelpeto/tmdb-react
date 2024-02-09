@@ -19,7 +19,7 @@ function App() {
     return (
         <>
             <header>
-                <h1>TMDB by Ernesto Melian</h1>
+                <h1>Trending movies</h1>
             </header>
             <main>
                 <MoviesGrid movies={movies} />
